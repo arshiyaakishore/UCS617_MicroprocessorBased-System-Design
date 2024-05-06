@@ -1,0 +1,8 @@
+ MOVAX,'15'
+ MOVBL,'6'
+ SUBAX,3030H
+ SUBBL,30H
+ AAD
+ DIV BL
+ HLT
+ ; halt!
