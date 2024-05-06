@@ -1,0 +1,12 @@
+MOV CL,0AH
+LEA SI,[1001H]
+L1: MOV BL, [SI] 
+MOV DL, [SI-1]
+ADD BL,DL
+MOV [SI+1],BL
+INC SI
+DEC CL
+JNZ L1
+
+
+HLT           ; halt!
