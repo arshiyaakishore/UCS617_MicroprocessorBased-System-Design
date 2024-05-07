@@ -1,3 +1,4 @@
+%largest
 MOV CL, 0AH;
 LEA SI, [1000H];
 MOV AL, [SI];
