@@ -1,3 +1,4 @@
+%%count of pos neg
 MOV CL, 0AH;
 MOV BL, 00H;
 MOV DL, 00H; 
